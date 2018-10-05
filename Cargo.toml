@@ -2,8 +2,8 @@
 description = "Parser for the TLS protocol"
 license = "MIT/Apache-2.0"
 keywords = ["TLS","SSL","protocol","parser","nom"]
-homepage = "https://github.com/rusticata/tls-parser"
-repository = "https://github.com/rusticata/tls-parser.git"
+homepage = "https://github.com/copslock/tls-parser"
+repository = "https://github.com/copslock/tls-parser.git"
 documentation = "https://docs.rs/tls-parser"
 name = "tls-parser"
 version = "0.6.0"
@@ -33,10 +33,10 @@ default = []
 serialize = []
 
 [dependencies]
-nom = {version = "4.0", features=["verbose-errors"] }
+nom = "4.0"
 phf = "0.7.16"
 enum_primitive = "^0.1"
-rusticata-macros = "1.0"
+rusticata-macros = "1.0.0"
 cookie-factory = "0.2"
 
 [dev-dependencies]
